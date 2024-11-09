@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <h1>Calculadora de IMC</h1>
+
+        <div class="form-group">
+            <label for="pes">Peso (kg):</label>
+            <input type="text" placeholder="Ingrese su peso" id="pes">
+        </div>
+
+        <div class="form-group">
+            <label for="alt">Altura (m):</label>
+            <input type="text" placeholder="Ingrese su altura ej. 1.80" id="alt">
+        </div>
+
+        <button id="cal">Calcular IMC</button>
+
+        <h2>Su IMC es: <span id="res"></span></h2>
+
+        <img src="IMC.webp" alt="Gráfico que muestra rangos del IMC">
+        
+        <button id="reset" class="reset-btn">Resetear</button>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
